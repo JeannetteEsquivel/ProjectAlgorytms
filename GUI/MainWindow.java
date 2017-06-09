@@ -79,12 +79,18 @@ public class MainWindow extends JFrame implements ActionListener {
             search.show();
 
         } else if (e.getSource() == this.jmiListaPorgenero) {
+<<<<<<< HEAD
             ChooseLists elegirlista = new ChooseLists(this);
             this.desktopPane.add(elegirlista);
             elegirlista.show();
         } else if (e.getSource() == this.jmiSearchMovie) {
             Search i = new Search();
             this.desktopPane.add(i);
+=======
+            
+        } else if (e.getSource() == this.jmiSearchMovie) {
+            
+>>>>>>> 98040511a6ae6cfac34441f8896babb432596b1a
 
         }//else-if
 

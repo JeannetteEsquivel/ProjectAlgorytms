@@ -28,9 +28,12 @@ public class FileBussines {
      public CircularList readFile() {
         return this.fileData.readFile();
     }//readFile
+<<<<<<< HEAD
 
     public Movie searchMovie(String movie) {
         return this.fileData.searchMovie(movie);
     }//searchMovie
+=======
+>>>>>>> 98040511a6ae6cfac34441f8896babb432596b1a
     
 }//class

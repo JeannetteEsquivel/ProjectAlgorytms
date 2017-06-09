@@ -89,6 +89,7 @@ public class FileData {
         return circularList;
     }//LeerArchivo 
 
+<<<<<<< HEAD
     public Movie searchMovie(String movie) {
         java.util.List<Movie> listPelicula = new ArrayList<Movie>();
         try {
@@ -116,4 +117,6 @@ public class FileData {
         return null;
     }//buscar
 
+=======
+>>>>>>> 98040511a6ae6cfac34441f8896babb432596b1a
 }//class
